@@ -8,14 +8,26 @@ bool isAlpha(char c) {
   return true;
 }
 
-const char* toLower(char* lowStr) {
+char* toLower(char* lowStr) {
   for(int i = 0; lowStr[i] != '\0'; i++ )
     if(isAlpha(lowStr[i]) && (int) lowStr[i] < 91) lowStr[i] += 97 - 65;
   return lowStr;
 }
 
+void capitalize(char* str) {
+  int i = 0;
+  char prevc = ' ';
+  while(str[i] != '\0') {
+    if(isAlpha(str[i]) && (int) str[i] > 89 && (int) str[i] < 123 && prevc == ' ')
+      str[i] -= 32;
+    prevc = str[i++];
+  }
+}
+
 int main() {
-  char str[] = "HELLO";
-  cout << str << " => " << toLower(str) << endl;
+  char str[] = "are u sure u want to do that?";
+  cout << str << " => ";
+  capitalize(str);
+  cout << str << endl;
   return 0;
 }
