@@ -1,3 +1,3 @@
 # Cpp-projects
 
-I am currently working on this C/C++ repo.
+This repository contains mini projects that I created during my C/C++ learning journey.
