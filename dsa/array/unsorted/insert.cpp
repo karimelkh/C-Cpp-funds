@@ -1,20 +1,9 @@
 #include <iostream>
+#include "../common/arr.h"
 
 using namespace std;
 
-// prints the arr elements (e.g., 0 2 9 21)
-// optional: set a start (from) and end (to) for the print function
-// default: 0 -> size - 1
-void print_arr(int arr[], int size, int from = 0, int to = -1) {
-  if(to == -1)
-    to = size - 1;
-  else if(to >= size)
-    return;
-
-  for(int i = from; i <= to; i++)
-    cout << arr[i] << " ";
-  cout << endl;
-}
+void print_arr(int, int);
 
 // Insert at the end of the array
 // n represent the real size of the array

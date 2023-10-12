@@ -1,23 +1,11 @@
 #include <iostream>
+#include "../common/arr.h"
+
 using namespace std;
 
-void print_arr(int arr[], int size, int from = 0, int to = -1) {
-  if(to == -1)
-    to = size - 1;
-  else if(to >= size)
-    return;
+void print_arr(int, int);
 
-  for(int i = from; i <= to; i++)
-    cout << arr[i] << " ";
-  cout << endl;
-}
-
-void switch_value(int arr[], int ia, int ib) {
-  if(ia == ib) return;
-  int temp = arr[ia];
-  arr[ia] = arr[ib];
-  arr[ib] = temp;
-}
+void switch_value(int, int, int);
 
 void sort_asc(int arr[], int size) {
   int min;
