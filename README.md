@@ -1,6 +1,18 @@
-# C/C++ fundamentals
+# C/C++ FUNDAMENTALS
 
 This repository contains mini projects that I created (and am still creating) during my C/C++ learning journey.
+
+
+## LEARNING RESOURCES
+
+Here are some resources:
+
+* [cplusplus.com](cplusplus.com)
+* [cppreference.com](cppreference.com)
+* [learncpp.com](learncpp.com)
+* [pythontutor](pythontutor.com)
+* [The Cherno - C++ playlist](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&si=YL8mr77_z-3m6it8)
+* [mycodeschool - DSA](https://youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&si=n2CPQfl8n6QR7cgP)
 
 
 ## TODOs
