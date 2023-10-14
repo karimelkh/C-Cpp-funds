@@ -35,6 +35,7 @@ Here are some resources:
 		- [ ] due date handling
 	- [ ] queue dsa
 	- [x] stack dsa
+	- [ ] stack dsa (c version)
 	- [ ] tree dsa
 	- [ ] hash map dsa
 
