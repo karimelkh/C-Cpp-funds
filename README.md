@@ -39,7 +39,7 @@ Here are some resources:
 	- [ ] tree dsa
 	- [ ] hash map dsa
 
-- [ ] projects to make:
+### projects to make:
 	- [x] todo list app
 	- [ ] Library Management System
 	- [ ] student DBMS
