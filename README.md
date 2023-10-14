@@ -21,6 +21,7 @@ Here are some resources:
 	- [ ] the linked list dsa code
 	- [x] the array dsa code
 	- [ ] todo list app
+	- [x] stack dsa code
 
 - [ ] add:
 	- [ ] the circular linked list
@@ -33,13 +34,12 @@ Here are some resources:
 		- [ ] save the tasks in a file
 		- [ ] due date handling
 	- [ ] queue dsa
-	- [ ] stack dsa
+	- [x] stack dsa
 	- [ ] tree dsa
 	- [ ] hash map dsa
 
-- [ ] make:
-	- [X] todo list app
+- [ ] projects to make:
+	- [x] todo list app
 	- [ ] Library Management System
 	- [ ] student DBMS
 	- [ ] Hangman Game
-
