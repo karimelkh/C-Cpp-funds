@@ -40,7 +40,7 @@ Here are some resources:
 	- [ ] hash map dsa
 
 ### projects to make:
-	- [x] todo list app
-	- [ ] Library Management System
-	- [ ] student DBMS
-	- [ ] Hangman Game
+- [x] todo list app
+- [ ] Library Management System
+- [ ] student DBMS
+- [ ] Hangman Game
