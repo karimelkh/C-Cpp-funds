@@ -26,7 +26,7 @@ Here are some resources:
 - [ ] add:
 	- [ ] the circular linked list
 	- [ ] the **oop** directory (that will includes the oop code).
-	- [ ] the **problems** directory (that will includes solution for problems from multiple platforms).
+	- [x] the **problems** directory (that will includes solution for problems from multiple platforms).
 	- [ ] some features to the todo list app
 		- [ ] enhance code readability
 		- [ ] change task state (e.g., Completed, Canceled, ...)
