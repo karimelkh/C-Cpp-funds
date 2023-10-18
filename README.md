@@ -45,6 +45,9 @@ Here are some resources:
 - [ ] student DBMS
 - [ ] Hangman Game
 
+### problems to solve:
+- [x] string reversal using stack DSA.
+- [x] expression evaluator using stack DSA.
 
 ## CONTACT
 
