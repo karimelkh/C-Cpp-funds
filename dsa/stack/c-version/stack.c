@@ -6,7 +6,7 @@
 
 int main() {
 	// ARRAY TESTS
-	printf("ARRAY\n");
+	log_message("ARRAY");
 
 	stack_arr array_stack;
 	array_stack.top = -1;
@@ -32,7 +32,7 @@ int main() {
 
 	// LINKED LIST TESTS
 
-	printf("LINKED LIST");
+	log_message("LINKED LIST");
 
 	stack_ll liked_list_stack;
 
@@ -40,18 +40,23 @@ int main() {
 	liked_list_stack.stack_count = 0;
 
 	for(int i=0; i<3; i++)
-		push_ll(liked_list_stack, create_node(i));
+		push_ll(&liked_list_stack, create_node(i));
 
-	printf("stack count: %d", get_stack_count_ll(liked_list_stack));
-	printf("top: %d", get_top_ll(liked_list_stack));
+	printf("stack count: %d\n", get_stack_count_ll(liked_list_stack));
+
+	if (!is_empty_ll(liked_list_stack))
+		printf("top: %d\n", get_top_ll(liked_list_stack));
+
+	else log_message(EMPTY_STACK);
+
 
 	printf("stack: ");
 	print_stack_ll(liked_list_stack);
 
-	printf("%d popped", pop_ll(liked_list_stack));
-	printf("%d popped", pop_ll(liked_list_stack));
-	printf("%d popped", pop_ll(liked_list_stack));
-	printf("%d popped", pop_ll(liked_list_stack));
+	printf("%d popped\n", pop_ll(&liked_list_stack));
+	printf("%d popped\n", pop_ll(&liked_list_stack));
+	printf("%d popped\n", pop_ll(&liked_list_stack));
+	printf("%d popped\n", pop_ll(&liked_list_stack));
 
 	printf("stack: ");
 	print_stack_ll(liked_list_stack);

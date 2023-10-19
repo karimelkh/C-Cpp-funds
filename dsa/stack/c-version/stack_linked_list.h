@@ -54,10 +54,10 @@ int get_stack_count_ll(stack_ll stack) {
 }
 
 // push (add) an element to the stack
-void push_ll(stack_ll stack, node* new_node) {
-  new_node->next = stack.top; // new_node points to the old top
-  stack.top = new_node; // new_node is the new top now
-  stack.stack_count++ ;
+void push_ll(stack_ll *stack_ref, node* new_node) {
+  new_node->next = stack_ref->top; // new_node points to the old top
+  stack_ref->top = new_node; // new_node is the new top now
+  stack_ref->stack_count++ ;
 }
 
 /*
@@ -65,14 +65,14 @@ void push_ll(stack_ll stack, node* new_node) {
   * returns the data of top if the stack is not empty
     else returns -1
 */
-int pop_ll(stack_ll stack) {
-  if(is_empty_ll(stack)) log_message(UNDERFLOW);
+int pop_ll(stack_ll *stack_ref) {
+  if(is_empty_ll(*stack_ref)) log_message(UNDERFLOW);
   else {
-    node* to_delete_node = stack.top; // save the old top to delete it later
+    node* to_delete_node = stack_ref->top; // save the old top to delete it later
     int popped_data = to_delete_node->data; // save the data that will be popped (returned)
-    stack.top = stack.top->next; // the new top will be next node 
+    stack_ref->top = stack_ref->top->next; // the new top will be next node 
     free(to_delete_node); // deleting the old top
-    stack.stack_count-- ;
+    stack_ref->stack_count-- ;
     return popped_data;
   }
   return -1;
