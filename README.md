@@ -28,6 +28,7 @@ Here are some resources:
 	- [ ] the **oop** directory (that will includes the oop code).
 	- [x] the **problems** directory (that will includes solution for problems from multiple platforms).
 	- [ ] some features to the todo list app
+		- [ ] use stack STL instead of the mine.
 		- [ ] enhance code readability
 		- [ ] change task state (e.g., Completed, Canceled, ...)
 		- [ ] enhance display/output formatting
@@ -35,7 +36,8 @@ Here are some resources:
 		- [ ] due date handling
 	- [ ] queue dsa
 	- [x] stack dsa
-	- [ ] stack dsa (c version)
+	- [x] stack dsa (c version)
+		- [ ] fix issues with an expected bahaviour like stack_count and more...
 	- [ ] tree dsa
 	- [ ] hash map dsa
 
