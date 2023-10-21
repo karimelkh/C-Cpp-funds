@@ -22,6 +22,7 @@ Here are some resources:
 	- [x] the array dsa code
 	- [ ] todo list app
 	- [x] stack dsa code
+	- [ ] queue dsa code
 
 - [ ] add:
 	- [ ] the circular linked list
@@ -34,7 +35,8 @@ Here are some resources:
 		- [ ] enhance display/output formatting
 		- [ ] save the tasks in a file
 		- [ ] due date handling
-	- [ ] queue dsa
+	- [x] queue dsa
+	- [ ] queue dsa (cpp version)
 	- [x] stack dsa
 	- [x] stack dsa (c version)
 		- [ ] fix issues with an expected bahaviour like stack_count and more...
