@@ -23,13 +23,14 @@ Here are some resources:
 	- [ ] todo list app
 	- [x] stack dsa code
 	- [ ] queue dsa code
+	- [ ] libms (library mangement system)
 
 - [ ] add:
 	- [ ] the circular linked list
 	- [ ] the **oop** directory (that will includes the oop code).
 	- [x] the **problems** directory (that will includes solution for problems from multiple platforms).
 	- [ ] some features to the todo list app
-		- [ ] use stack STL instead of the mine.
+		- [ ] use stack STL instead of mine.
 		- [ ] enhance code readability
 		- [ ] change task state (e.g., Completed, Canceled, ...)
 		- [ ] enhance display/output formatting
@@ -45,13 +46,17 @@ Here are some resources:
 
 ### projects to make:
 - [x] todo list app
-- [ ] Library Management System
+- [x] Library Management System
 - [ ] student DBMS
 - [ ] Hangman Game
+
+## to complete:
+- [ ] Library Management System
 
 ### problems to solve:
 - [x] string reversal using stack DSA.
 - [x] expression evaluator using stack DSA.
+
 
 ## CONTACT
 
