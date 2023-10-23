@@ -19,16 +19,16 @@ Here are some resources:
 
 - [ ] document:
 	- [ ] the linked list dsa code
-	- [x] the array dsa code
+	<!-- - [x] the array dsa code -->
 	- [ ] todo list app
-	- [x] stack dsa code
+	<!-- - [x] stack dsa code -->
 	- [ ] queue dsa code
 	- [ ] libms (library mangement system)
 
 - [ ] add:
 	- [ ] the circular linked list
 	- [ ] the **oop** directory (that will includes the oop code).
-	- [x] the **problems** directory (that will includes solution for problems from multiple platforms).
+	<!-- - [x] the **problems** directory (that will includes solution for problems from multiple platforms). -->
 	- [ ] some features to the todo list app
 		- [ ] use stack STL instead of mine.
 		- [ ] enhance code readability
@@ -36,17 +36,17 @@ Here are some resources:
 		- [ ] enhance display/output formatting
 		- [ ] save the tasks in a file
 		- [ ] due date handling
-	- [x] queue dsa
+	<!-- - [x] queue dsa -->
 	- [ ] queue dsa (cpp version)
-	- [x] stack dsa
+	<!-- - [x] stack dsa -->
 	- [x] stack dsa (c version)
 		- [ ] fix issues with an expected bahaviour like stack_count and more...
 	- [ ] tree dsa
 	- [ ] hash map dsa
 
 ### projects to make:
-- [x] todo list app
-- [x] Library Management System
+<!-- - [x] todo list app -->
+<!-- - [x] Library Management System -->
 - [ ] student DBMS
 - [ ] Hangman Game
 
@@ -54,8 +54,8 @@ Here are some resources:
 - [ ] Library Management System
 
 ### problems to solve:
-- [x] string reversal using stack DSA.
-- [x] expression evaluator using stack DSA.
+<!-- - [x] string reversal using stack DSA. -->
+<!-- - [x] expression evaluator using stack DSA. -->
 
 
 ## CONTACT
