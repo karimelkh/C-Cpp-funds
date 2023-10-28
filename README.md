@@ -28,7 +28,8 @@ Here are some resources:
 - [ ] add:
 	- [ ] the circular linked list
 	- [ ] the **oop** directory (that will includes the oop code).
-	<!-- - [x] the **problems** directory (that will includes solution for problems from multiple platforms). -->
+	- [x] the **problems** directory (that will includes solution for problems from multiple platforms).
+		- [ ] organize the directory to contain problems from platfoms.
 	- [ ] some features to the todo list app
 		- [ ] use stack STL instead of mine.
 		- [ ] enhance code readability
