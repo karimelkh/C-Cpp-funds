@@ -26,6 +26,8 @@ Here are some resources:
 	- [ ] libms (library mangement system)
 
 - [ ] add:
+	- [ ] animated text from right to left
+	- [ ] text based walking man animation
 	- [ ] the circular linked list
 	- [ ] the **oop** directory (that will includes the oop code).
 	- [x] the **problems** directory (that will includes solution for problems from multiple platforms).
