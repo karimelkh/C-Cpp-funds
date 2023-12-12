@@ -39,6 +39,7 @@ Here are some resources:
 		- [ ] enhance display/output formatting
 		- [ ] save the tasks in a file
 		- [ ] due date handling
+		- [ ] make a command line prompt
 	<!-- - [x] queue dsa -->
 	- [ ] queue dsa (cpp version)
 	<!-- - [x] stack dsa -->
