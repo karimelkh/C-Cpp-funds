@@ -1,5 +1,6 @@
 # IDE settings
 .vscode/
+.config
 
 # Prerequisites
 *.d
