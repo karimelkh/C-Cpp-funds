@@ -48,6 +48,9 @@ Here are some resources:
 	- [ ] tree dsa
 	- [ ] hash map dsa
 
+- [ ] move the *problems* to another repo.
+- [ ] move the *projects* to another repo. 
+
 ### projects to make:
 <!-- - [x] todo list app -->
 <!-- - [x] Library Management System -->
