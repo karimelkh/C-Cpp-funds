@@ -1,7 +1,7 @@
 # C/C++ FUNDAMENTALS
 
-This repository contains mini projects that I created (and am still creating) during my C/C++ learning journey.
-
+This repository contains my projects code that I created (and am still creating) during my C/C++ learning journey.
+*I moved some projects to another repos.*
 
 ## LEARNING RESOURCES
 
@@ -48,8 +48,8 @@ Here are some resources:
 	- [ ] tree dsa
 	- [ ] hash map dsa
 
-- [ ] move the *problems* to another repo.
-- [ ] move the *projects* to another repo. 
+- [x] move the *problems* to another repo.
+- [x] move the *projects* to another repo. 
 
 ### projects to make:
 <!-- - [x] todo list app -->
@@ -68,3 +68,4 @@ Here are some resources:
 ## CONTACT
 
 If you have any questions, feedback, or suggestions, feel free to [send an email](mailto:karimelkhanoufi22@gmail.com).
+
